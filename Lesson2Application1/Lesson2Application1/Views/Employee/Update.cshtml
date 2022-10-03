@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = null;
+}
+
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model Lesson2Application1.Models.Employee
+
+<body>
+    <form asp-controller="Employee" asp-action="Update">
+        Emp Id: <input asp-for="Id"> <br />
+        First Name: <input asp-for="FirstName"> <br />
+        Last Name: <input asp-for="LastName"><br />
+        <button type="submit"> Create </button><br />
+    </form>
+</body>

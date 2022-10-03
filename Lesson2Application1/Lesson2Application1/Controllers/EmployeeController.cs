@@ -14,7 +14,7 @@ namespace Lesson2Application1.Controllers
         [HttpPost]
         public IActionResult Create(Employee e)
         {
-            _repo.addEmployee(e);
+            _repo.updateEmployee(e);
             return View("List", _repo.getEmployees());
         }
         [HttpGet]
@@ -27,7 +27,15 @@ namespace Lesson2Application1.Controllers
             _repo.deleteEmployee(id);
             return View("List", _repo.getEmployees());
         }
-
-        
+        public IActionResult Update()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Update(Employee e)
+        {
+            _repo.updateEmployee(e);
+            return View("List", _repo.getEmployees());
+        }
     }
 }

@@ -25,5 +25,31 @@
             }
 
         }
+
+        public void updateEmployee(Employee employee)
+        {
+            /*First Solution
+
+             var emp = _employees.Find(e => e.Id == employee.Id);
+             if (emp != null)
+             {
+                 if (employee.Salary > 0)
+                 {
+                     _employees.Remove(emp);
+                     _employees.Add(employee);
+                 }
+             }
+            */
+            var emp = _employees.Find(e => e.Id == employee.Id);
+            if (emp != null) {
+                emp.FirstName = employee.FirstName;
+                emp.LastName = employee.LastName;
+                if (employee.Salary > 0)
+                {
+                    emp.Salary = employee.Salary;
+                }
+            }
+                
+        }
     }
 }
