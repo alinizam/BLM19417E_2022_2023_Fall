@@ -14,7 +14,7 @@ namespace Lesson2Application1.Controllers
         [HttpPost]
         public IActionResult Create(Employee e)
         {
-            _repo.updateEmployee(e);
+            _repo.addEmployee(e);
             return View("List", _repo.getEmployees());
         }
         [HttpGet]

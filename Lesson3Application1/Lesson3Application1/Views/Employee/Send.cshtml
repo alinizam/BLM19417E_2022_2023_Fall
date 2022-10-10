@@ -1,0 +1,24 @@
+﻿@model string
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+    ViewData["Title"] = "Send";
+    var employee = ViewData["Employee"] as Lesson3Application1.Models.Employee;
+}
+
+<h1>Send</h1>
+<h2>@Model</h2>
+<br>
+<h1>ViewData</h1>
+<h2>@ViewData["Message"]</h2>
+<h2>@employee.FirstName @employee.LastName</h2>
+
+
+
+<h1>ViewBag</h1>
+<h2>@ViewBag.Message</h2>
+<h2>@ViewBag.Employee.FirstName @ViewBag.Employee.LastName</h2>
+
+<h2>@ViewBag.sendedData</h2> 
+

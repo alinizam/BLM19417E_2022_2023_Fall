@@ -1,0 +1,10 @@
+﻿@model Lesson3Application1.Models.Employee
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@Html.DropDownList("Id1", new SelectList(ViewBag.empList, "Id", "FirstName"))
+
+<select asp-for="Id" class="form-control" asp-items="ViewBag.empListVD"></select>
+
+
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HoxZ17rEWjKsTgdfwbaCCjQVktNGDIwzq7U68jJzx03+UeqnTkkB2Yd2AIDmKhZ5ss9x6V0neBzp0p4dQnOx3g==",
+  "dgSpecHash": "IUUNlwk9FdXRzv82w4FOJxzpNp3puiBYXU/+fGj0xo+vEQ43p2/QmCVb1FQSTU2fSj+qdzt4L2ifIU2rZarU6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali.nizam\\source\\repos\\Lesson2Application1\\Lesson2Application1\\Lesson2Application1.csproj",
+  "projectFilePath": "D:\\calisma\\verilen dersler\\Web Design and Programming\\2022_2023 Güz\\kodlar\\BLM19417E_2022_2023_Fall\\Lesson2Application1\\Lesson2Application1\\Lesson2Application1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali.nizam\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\ali.nizam\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
